@@ -13,17 +13,17 @@
         tools:context="com.sample.foo.samplecalculator.MainActivity">
 
         <TextView
-            android:id="@+id/infoTextView"
+            android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:textSize="30sp" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/infoTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/infoTextView"
+            android:layout_below="@id/editText"
             android:enabled="false"
             android:gravity="bottom"
             android:lines="2"
@@ -35,7 +35,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/editText"
+            android:layout_below="@id/infoTextView"
             android:text="7"
             android:textSize="20sp" />
 
@@ -44,7 +44,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/editText"
+            android:layout_below="@id/infoTextView"
             android:layout_toRightOf="@id/buttonSeven"
             android:text="8"
             android:textSize="20sp" />
@@ -54,7 +54,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/editText"
+            android:layout_below="@id/infoTextView"
             android:layout_toRightOf="@id/buttonEight"
             android:text="9"
             android:textSize="20sp" />
